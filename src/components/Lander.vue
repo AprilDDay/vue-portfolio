@@ -17,11 +17,60 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
+                            <div class="card-head">
+                                <img alt="Vue logo"
+                                      class="rounded-circle img-custome" 
+            src="https://www.wetechnology.cz/wp-content/uploads/2017/02/uxui.jpg">
+                                <h2>web project</h2>
+                            </div>
+                                <hr>
+                                <div class="card-body">
+                                    <p> stuff and more stuff </p>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        More
+                                    </button>
+                                </div>
+                        </div>
+                        </br>
+                    </div>
+                        <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-head">
+                                <img alt="Vue logo"
+                                      class="rounded-circle img-custome" 
+            src="https://www.wetechnology.cz/wp-content/uploads/2017/02/uxui.jpg">
+                                <h2>web project</h2>
+                            </div>
+                                <hr>
+                                <div class="card-body">
+                                    <p> stuff and more stuff </p>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        More
+                                    </button>
+                                </div>
+                        </div>
+                        </br>
+                    </div>
+                        <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-head">
+                                <img alt="Vue logo"
+                                      class="rounded-circle img-custome" 
+            src="https://www.wetechnology.cz/wp-content/uploads/2017/02/uxui.jpg">
+                                <h2>web project</h2>
+                            </div>
+                                <hr>
+                                <div class="card-body">
+                                    <p> stuff and more stuff </p>
+                                    <button type="button" class="btn btn-outline-secondary">
+                                        More
+                                    </button>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </sectipn>>
+        </section>
     </div>
 </template>
 
