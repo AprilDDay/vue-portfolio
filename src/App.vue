@@ -1,16 +1,21 @@
 <template>
   <div id="app">
     <navigation />
+    <router-view></router-view>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Navigation from './components/includes/navigation.vue'
+import Footer from './components/includes/footer.vue'
+
 
 export default {
   name: 'App',
   components: {
-    Navigation
+    Navigation,
+    Footer
   }
 }
 </script>

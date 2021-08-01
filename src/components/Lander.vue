@@ -31,7 +31,7 @@
                                     </button>
                                 </div>
                         </div>
-                        </br>
+                        <br/>
                     </div>
                         <div class="col-md-4">
                         <div class="card">
@@ -49,7 +49,7 @@
                                     </button>
                                 </div>
                         </div>
-                        </br>
+                        <br>/
                     </div>
                         <div class="col-md-4">
                         <div class="card">
@@ -69,14 +69,63 @@
                         </div>
                     </div>
                 </div>
+                <!-- maybe put this somewhere else -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">contact</button>
+            </div>
+        </section>
+        <section>
+            <div class="modal fade bd-example-modal-lg" tabindex="-1"
+                role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <contact/>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
 </template>
+
+<script>
+
+import contact from './contact.vue'
+
+export default {
+    name: 'Lander',
+    components: {
+        contact
+    }
+}
+
+/*
+import { defineComponent } from '@vue/composition-api'
+
+export default defineComponent({
+    setup() {
+        
+    },
+})
+*/
+</script>
+
 
 <style lang="css" scoped>
     .section {
         padding-top: 10%;
         padding-bottom: 10%;
     }
+
+    .portfolio {
+        background-color: #34345238;
+        padding-top: 8%;
+        padding-bottom: 15%;
+
+    }
+
+    .img-custom {
+        width: 140px;
+        height: 140px;
+        margin-top: 15px;
+    }
+
 </style>
